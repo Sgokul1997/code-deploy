@@ -6,7 +6,4 @@ pipelines:
      - step:
          script:
            - apt-get update
-           - apt-get install -y zip
-           - pip install boto3==1.3.0
-           - zip -r /tmp/artifact.zip
-           - pythone codedeploy_deploy.py
+           
